@@ -4,7 +4,7 @@ applications:
   #  GO15VENDOREXPERIMENT: 0
     GOPACKAGENAME: webapp
     GOVERSION: go1.6
-  command: web/webapp
+  command: webapp
   buildpack: https://github.com/cloudfoundry/go-buildpack.git
   instances: 1
   memory: 128M
